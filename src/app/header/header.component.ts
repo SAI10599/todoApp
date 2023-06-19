@@ -12,11 +12,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  isLoggedIn = false;
-
-  toggleLoginState() {
-    this.isLoggedIn = !this.isLoggedIn;
-  }
+  
 }
 
 
