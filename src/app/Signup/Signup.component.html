@@ -1,0 +1,10 @@
+<h1>Signup</h1>
+<form (submit)="signup()"> <!--event binding -->
+  <input type="text" [(ngModel)]="firstName" name="firstName" placeholder="First Name">
+  <input type="text" [(ngModel)]="lastName" name="lastName" placeholder="Last Name">
+  <input type="email" [(ngModel)]="email" name="email" placeholder="Email">
+  <input type="password" [(ngModel)]="password" name="password" placeholder="Password">
+  <input type="tel" [(ngModel)]="phone" name="phone" placeholder="Phone">
+  <input type="date" [(ngModel)]="dob" name="dob" placeholder="Date of Birth">
+  <button type="submit">Sign Up</button>
+</form>
